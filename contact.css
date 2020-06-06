@@ -82,6 +82,15 @@ nav img{
         font-size: 1.2rem;
     }     
 }
+.section-login{
+    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 5rem;
+    padding: .5rem 2rem;
+    border: none;
+    color: #ffffff;
+    font-size: .5rem;
+}
+
 
 
 .intro{
@@ -173,6 +182,8 @@ textarea{
     min-height: 8rem;
     font-size: .5rem;
 }
+
+input::placeholder,
 textarea::placeholder{
     font-size: .5rem;
 }
