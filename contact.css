@@ -13,13 +13,12 @@ body {
 }
 
 :root{
-    --clr-light: #fff;
-    --clr-dark: #281AC8;
     --clr-accent: #fd74d9;
 }
 
 
-/* navbar */
+/* Navigation Bar */
+
 .navbar-light .navbar-nav .nav-link {
     color: #333333 !important;
     font-weight: bold;
@@ -92,11 +91,11 @@ nav img{
 }
 
 
+/* The Header */
 
 .intro{
     background-image: url("img/Group\ 382.png");
     background-repeat: no-repeat;
-    /* display: flex; */
     background-size: cover;
     background-position: bottom center;
     width: 100%;
@@ -132,6 +131,9 @@ nav img{
     line-height: 1.2;
     max-width: 15rem;
 }
+
+
+/* The Form */
 
 .form{
     top: -5rem;
@@ -200,6 +202,9 @@ textarea::placeholder{
     margin: 2rem 0 4rem;
 }
 
+
+/* The Map */
+
 .map{
     background-color: var(--clr-accent);
     background-image: url(img/Lagos\ Map.png);
@@ -234,254 +239,6 @@ textarea::placeholder{
     margin-right: .5rem;
 }
 
-@media all and (min-width: 680px){
-    .intro{
-        padding: 2rem;
-    }
-    .main{
-        float: right;
-        height: 15rem;
-        width: 15rem;
-    }
-    
-    .section-intro{
-        padding-top: 3rem;
-        float: left;
-        max-width: 15rem;
-    }
-}
-
-@media all and (min-width: 970px){
-    .intro{
-        padding: 4rem;
-        min-height: 40rem;
-    }
-    .main{
-        float: right;
-        height: 20rem;
-        width: 20rem;
-    }
-    
-    .section-intro{
-        padding-top: 4rem;
-        float: left;
-        max-width: 20rem;
-    }
-    .section-intro-paragraph{
-        font-size: .5rem;
-    }
-    
-    .section-intro-title{
-        font-size: 1.5rem;
-        line-height: 1.6;
-        font-weight: bold;
-        margin: 1rem 0;
-    }
-    
-    .section-intro-subtitle{
-        font-size: .7rem;
-        line-height: 1.2;
-        max-width: 15rem;
-    }
-    .form{
-        top: -5rem;
-        position: relative;
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-    
-    .section-form-paragraph{
-        position: relative;
-        text-align: center;
-        font-size: 1rem;
-    }
-    
-    form{
-        display: inline-block;
-        margin: auto;
-        text-align: left;
-    }
-    
-    .section-name-email{
-        margin: 3rem auto 1.5rem;
-    }
-    
-    .section-input-1{
-        margin-right: 2rem;
-        padding: 1em 1em;
-        border-radius: .25rem;
-        font-size: .8rem;
-        min-width: 18rem;
-        border: 1px solid #D1D1D1;
-    }
-    .section-input-2{
-        min-width: 18rem;
-        padding: 1em 1em;
-        border-radius: .25rem;
-        font-size: .8rem;
-        border: 1px solid #D1D1D1;
-    }
-    
-    textarea{
-        border: 1px solid #D1D1D1;
-        border-radius: .3rem;
-        padding: 1em;
-        min-width: 38.3rem;
-        min-height: 8rem;
-        font-size: .8rem;
-    }
-    
-    .section-publish{
-        background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
-        border-radius: 5rem;
-        padding: 1rem 3rem;
-        border: none;
-        color: #ffffff;
-        font-size: .8rem;
-        align-items: left;
-        text-align: left;
-        margin: 2rem 0 4rem;
-    }
-}
-
-@media all and (min-width: 1300px){
-    .intro{
-        padding: 7rem;
-        min-height: 50rem
-    }
-    .main{
-        float: right;
-        height: 25rem;
-        width: 25rem;
-    }
-    
-    .section-intro{
-        padding-top: 4rem;
-        float: left;
-        max-width: 25rem;
-    }
-    .section-intro-paragraph{
-        font-size: .7rem;
-    }
-    
-    .section-intro-title{
-        font-size: 2rem;
-        line-height: 1.6;
-        font-weight: bold;
-        margin: 1rem 0;
-    }
-    
-    .section-intro-subtitle{
-        font-size: 1rem;
-        line-height: 1.2;
-        max-width: 20rem;
-    }
-    .form{
-        top: -5rem;
-        position: relative;
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-    
-    .section-form-paragraph{
-        position: relative;
-        text-align: center;
-        font-size: 1rem;
-    }
-    
-    form{
-        display: inline-block;
-        margin: auto;
-        text-align: left;
-    }
-    
-    .section-name-email{
-        margin: 3rem auto 1.5rem;
-    }
-    
-    .section-input-1{
-        margin-right: 2rem;
-        padding: 1em 1em;
-        border-radius: .25rem;
-        font-size: .8rem;
-        min-width: 18rem;
-        border: 1px solid #D1D1D1;
-    }
-    .section-input-2{
-        min-width: 18rem;
-        padding: 1em 1em;
-        border-radius: .25rem;
-        font-size: .8rem;
-        border: 1px solid #D1D1D1;
-    }
-    
-    textarea{
-        border: 1px solid #D1D1D1;
-        border-radius: .3rem;
-        padding: 1em;
-        min-width: 38.3rem;
-        min-height: 8rem;
-        font-size: .8rem;
-    }
-    
-    .section-publish{
-        background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
-        border-radius: 5rem;
-        padding: 1rem 3rem;
-        border: none;
-        color: #ffffff;
-        font-size: .8rem;
-        align-items: left;
-        text-align: left;
-        margin: 2rem 0 4rem;
-    }
-}
-
-@media all and (min-width: 1800px){
-    .intro{
-        padding: 9rem;
-        min-height: 80rem
-    }
-    .main{
-        float: right;
-        height: 45rem;
-        width: 45rem;
-    }
-    
-    .section-intro{
-        padding-top: 4rem;
-        float: left;
-        max-width: 50%;
-    }
-    .section-intro-paragraph{
-        font-size: 1rem;
-    }
-    
-    .section-intro-title{
-        font-size: 3rem;
-        line-height: 1.6;
-        font-weight: bold;
-        margin: 3rem 0;
-    }
-    
-    .section-intro-subtitle{
-        font-size: 1.7rem;
-        line-height: 1.2;
-        max-width: 30rem;
-    }
-    .section-form-paragraph{
-        font-size: 2rem;
-    }
-    input::placeholder,
-    textarea::placeholder{
-        font-size: 1.5rem;
-    }
-    .footer{
-        font-size: 1.5rem;
-    }
-}
 
 /* Footer */
 
@@ -563,8 +320,285 @@ a {
 
 /* Media Queries */
 
+@media all and (min-width: 680px){
+    .intro{
+        padding: 2rem;
+    }
+    
+    .main{
+        float: right;
+        height: 15rem;
+        width: 15rem;
+    }
+    
+    .section-intro{
+        padding-top: 3rem;
+        float: left;
+        max-width: 15rem;
+    }
+}
 
-/* For phone*/
+@media all and (min-width: 970px){
+    
+    /* The Header */
+
+    .intro{
+        padding: 4rem;
+        min-height: 40rem;
+    }
+
+    .main{
+        float: right;
+        height: 20rem;
+        width: 20rem;
+    }
+    
+    .section-intro{
+        padding-top: 4rem;
+        float: left;
+        max-width: 20rem;
+    }
+
+    .section-intro-paragraph{
+        font-size: .5rem;
+    }
+    
+    .section-intro-title{
+        font-size: 1.5rem;
+        line-height: 1.6;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+    
+    .section-intro-subtitle{
+        font-size: .7rem;
+        line-height: 1.2;
+        max-width: 15rem;
+    }
+
+
+    /* The Form */
+
+    .form{
+        top: -5rem;
+        position: relative;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .section-form-paragraph{
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    form{
+        display: inline-block;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .section-name-email{
+        margin: 3rem auto 1.5rem;
+    }
+    
+    .section-input-1{
+        margin-right: 2rem;
+        padding: 1em 1em;
+        border-radius: .25rem;
+        font-size: .8rem;
+        min-width: 18rem;
+        border: 1px solid #D1D1D1;
+    }
+
+    .section-input-2{
+        min-width: 18rem;
+        padding: 1em 1em;
+        border-radius: .25rem;
+        font-size: .8rem;
+        border: 1px solid #D1D1D1;
+    }
+    
+    textarea{
+        border: 1px solid #D1D1D1;
+        border-radius: .3rem;
+        padding: 1em;
+        min-width: 38.3rem;
+        min-height: 8rem;
+        font-size: .8rem;
+    }
+    
+    .section-publish{
+        background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+        border-radius: 5rem;
+        padding: 1rem 3rem;
+        border: none;
+        color: #ffffff;
+        font-size: .8rem;
+        align-items: left;
+        text-align: left;
+        margin: 2rem 0 4rem;
+    }
+}
+
+@media all and (min-width: 1300px){
+
+    /* The Header */
+
+    .intro{
+        padding: 7rem;
+        min-height: 50rem
+    }
+    .main{
+        float: right;
+        height: 25rem;
+        width: 25rem;
+    }
+    
+    .section-intro{
+        padding-top: 4rem;
+        float: left;
+        max-width: 25rem;
+    }
+
+    .section-intro-paragraph{
+        font-size: .7rem;
+    }
+    
+    .section-intro-title{
+        font-size: 2rem;
+        line-height: 1.6;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+    
+    .section-intro-subtitle{
+        font-size: 1rem;
+        line-height: 1.2;
+        max-width: 20rem;
+    }
+
+    /* The Form */
+
+    .form{
+        top: -5rem;
+        position: relative;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .section-form-paragraph{
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    form{
+        display: inline-block;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .section-name-email{
+        margin: 3rem auto 1.5rem;
+    }
+    
+    .section-input-1{
+        margin-right: 2rem;
+        padding: 1em 1em;
+        border-radius: .25rem;
+        font-size: .8rem;
+        min-width: 18rem;
+        border: 1px solid #D1D1D1;
+    }
+    .section-input-2{
+        min-width: 18rem;
+        padding: 1em 1em;
+        border-radius: .25rem;
+        font-size: .8rem;
+        border: 1px solid #D1D1D1;
+    }
+    
+    textarea{
+        border: 1px solid #D1D1D1;
+        border-radius: .3rem;
+        padding: 1em;
+        min-width: 38.3rem;
+        min-height: 8rem;
+        font-size: .8rem;
+    }
+    
+    .section-publish{
+        background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+        border-radius: 5rem;
+        padding: 1rem 3rem;
+        border: none;
+        color: #ffffff;
+        font-size: .8rem;
+        align-items: left;
+        text-align: left;
+        margin: 2rem 0 4rem;
+    }
+}
+
+@media all and (min-width: 1800px){
+
+    /* The Header */
+
+    .intro{
+        padding: 9rem;
+        min-height: 80rem
+    }
+    .main{
+        float: right;
+        height: 45rem;
+        width: 45rem;
+    }
+    
+    .section-intro{
+        padding-top: 4rem;
+        float: left;
+        max-width: 50%;
+    }
+    .section-intro-paragraph{
+        font-size: 1rem;
+    }
+    
+    .section-intro-title{
+        font-size: 3rem;
+        line-height: 1.6;
+        font-weight: bold;
+        margin: 3rem 0;
+    }
+    
+    .section-intro-subtitle{
+        font-size: 1.7rem;
+        line-height: 1.2;
+        max-width: 30rem;
+    }
+
+    /* The Form */
+
+    .section-form-paragraph{
+        font-size: 2rem;
+    }
+
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        font-size: 1.5rem;
+    }
+}
+
+/* Media Queries */
+
+
+/* Footer*/
 
 @media screen and (max-width: 768px) {
     .footer {
